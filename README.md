@@ -11,6 +11,18 @@ Output: Clean JPG (380KB, zero metadata, same resolution)
 
 ## Install
 
+Copy this folder to your Claude Code skills directory:
+
+```bash
+# Global (all projects)
+cp -r ai-image-stripper ~/.claude/skills/
+
+# Or project-level only
+cp -r ai-image-stripper your-project/.claude/skills/
+```
+
+Or install via ClawHub:
+
 ```bash
 clawhub install ai-image-stripper
 ```
