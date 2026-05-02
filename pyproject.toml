@@ -1,0 +1,9 @@
+[project]
+name = "ai-image-stripper"
+version = "0.1.0"
+description = "Strip C2PA/AI metadata from AI-generated images. Converts PNG to clean JPG with zero provenance data."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pillow>=12.2.0",
+]
